@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SUND4Y X HUB", "Synapse")
+local Window = Library.CreateLib("SUND4Y HUB | 🎃", "Synapse")
 
 local Tab = Window:NewTab("Da Hood")
 local Section = Tab:NewSection("Is all best script. Enjoy!")
