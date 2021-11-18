@@ -2,35 +2,35 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("SUND4Y HUB | 🎃", "Synapse")
 
 local Tab = Window:NewTab("Da Hood")
-local Section = Tab:NewSection("Is all best script. Enjoy!")
+local Section = Tab:NewSection("รวมสคริปที่โคตรเทพ. Enjoy!")
 
-Section:NewButton("Floppa", " op Fov Script!", function()
+Section:NewButton("Floppa", "เอาไป raid โคตรดี!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/6Rev/scripts/main/dahood"))()
 end)
 
-Section:NewButton("Faded", " op Fov Script!", function()
+Section:NewButton("Faded", " OP จัดๆ!", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
 end)
 
-Section:NewButton("Swag Mode", "Dont open with Floppa", function()
+Section:NewButton("Swag Mode", "best สคริปแนะนำไปซื้อ premium ด้วย", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))() 
 end)
 
 -- Arsenal
 
 local Tab = Window:NewTab("ARSENAL")
-local Section = Tab:NewSection("Is COOL script. Enjoy!")
+local Section = Tab:NewSection("นี่คือสคริปที่โคตรเทพ. Enjoy !")
 
-Section:NewButton("Owl Hub", " op AresenL Script!", function()
+Section:NewButton("Owl Hub", " aim lock ดีสุดๆ!", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
 end)
 
 -- GPO
 
 local Tab = Window:NewTab("GPO")
-local Section = Tab:NewSection("Is u can get banned. Enjoy!")
+local Section = Tab:NewSection("มีโอกาศโดนแบนสูง. Enjoy!")
 
-Section:NewButton("DF Notifitter", " op AresenL Script!", function()
+Section:NewButton("DF Notifitter", " ระวังโดนแบนนะจ๊ะ!", function()
  loadstring(game:HttpGet('https://raw.githubusercontent.com/ArponAG/Scripts/main/gpo.lua', true))()
 end)
 
@@ -39,21 +39,22 @@ end)
 local Tab = Window:NewTab("Bed wars")
 local Section = Tab:NewSection("Is good script. Enjoy!")
 
-Section:NewButton("VAPE", " op Bedwarsw Script!", function()
+Section:NewButton("VAPE", " ไม่กังนะครับ ต้องหามาลอง!", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 end)
 
-Section:NewButton("Monkey", " op Bedwarsw Script!", function()
+Section:NewButton("Monkey", " ไม่ลองไม่รู้ถึงความ OP!", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/BedWarsMonkey.lua"))()
 end)
 
-Section:NewButton("Crokuran", " op Bedwarsw Script!", function()
+Section:NewButton("Crokuran", " ของโคตรดีย์!", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/SlaveDash/Crokuranu/main/Bedwars%20UI%20Source%20Code'))()
 end)
 
-Section:NewButton("Original", " op Bedwarsw Script!", function()
+Section:NewButton("Original", " ก็ OP พอตัว!", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperGamingBros4/Roblox-HAX/main/Updated_Totally_Original_Script_Hub.Lua"))()
 end)
 -- credit
 local Tab = Window:NewTab("Credit")
 local Section = Tab:NewSection("Creat by !DAYYY# 2818")
+local Section = Tab:NewSection("สนับสนุนได้ที่ True wallet: 0625238053")
