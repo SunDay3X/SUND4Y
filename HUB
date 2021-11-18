@@ -81,7 +81,35 @@ bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="You went idle and ROBLOX tried to kick you but we reflected it!"wait(2)ab.Text="Script Re-Enabled"end)
 end)
 
+--funkey friday
+
+local Tab = Window:NewTab("Funkey Friday")
+local Section = Tab:NewSection("สคริปที่โคตรเทพ. Enjoy!")
+
+Section:NewButton("auto play", " ปรับเป็นโปรเนียนได้เลย!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+end)
+
+--admin command
+
+local Tab = Window:NewTab("Adim command")
+local Section = Tab:NewSection("ใช้ยากพอตัวอย่าลืมศึกษา. Enjoy!")
+
+Section:NewButton("infinite yield", " ทดลองการเป็น admin!", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+--scp 3008
+
 -- credit
+local Tab = Window:NewTab("SCP 3008")
+local Section = Tab:NewSection("สามารถ ESP ของได้. Enjoy!")
+
+Section:NewButton("3008 ESP", " หาของได้เลย!", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/KkYSW1Gu", true))()
+end)
+
+--
 
 local Tab = Window:NewTab("Credit")
 local Section = Tab:NewSection("Creat by !DAYYY# 2818")
