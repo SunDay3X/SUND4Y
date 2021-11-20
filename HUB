@@ -30,7 +30,7 @@ end)
 local Tab = Window:NewTab("Blox Fruit")
 local Section = Tab:NewSection("นี่คือสคริปฟรีที่โคตรโหด. Enjoy !")
 
-Section:NewButton("MoKuRo Hub", " ฟามดีจัดๆ!", function()
+Section:NewButton("MOKURO Hub", " ฟามดีจัดๆ!", function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
 end)
 
@@ -38,6 +38,9 @@ Section:NewButton("Night Hub", " Ui discrod สุดเท่!", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/Night_Script/main/BloxFruit.lua"))()
 end)
 
+Section:NewButton("Strike Hub", " ทำอะไรก็ดีไปหมด!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)
 
 -- GPO
 
