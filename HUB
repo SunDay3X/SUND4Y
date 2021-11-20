@@ -133,4 +133,5 @@ end)
 --
 
 local Tab = Window:NewTab("Credit")
+local Section = Tab:NewSection("Creat by !DAYYYY# 2818")
 local Section = Tab:NewSection("สนับสนุนได้ที่ True wallet: 0625238053")
