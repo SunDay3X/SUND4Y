@@ -25,13 +25,31 @@ Section:NewButton("Owl Hub", " aim lock ดีสุดๆ!", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
 end)
 
+-- blox fruit
+
+local Tab = Window:NewTab("Blox Fruit")
+local Section = Tab:NewSection("นี่คือสคริปฟรีที่โคตรโหด. Enjoy !")
+
+Section:NewButton("MoKuRo Hub", " ฟามดีจัดๆ!", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+end)
+
+Section:NewButton("Night Hub", " Ui discrod สุดเท่!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/Night_Script/main/BloxFruit.lua"))()
+end)
+
+
 -- GPO
 
 local Tab = Window:NewTab("GPO")
 local Section = Tab:NewSection("มีโอกาศโดนแบนสูง. Enjoy!")
 
-Section:NewButton("DF Notifitter", " ระวังโดนแบนนะจ๊ะ!", function()
- loadstring(game:HttpGet('https://raw.githubusercontent.com/ArponAG/Scripts/main/gpo.lua', true))()
+Section:NewButton("Arpon AG", " ระวังโดนแบนนะจ๊ะ!", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ArponAG/Scripts/main/gpo.lua', true))()
+end)
+
+Section:NewButton("Jakeki", " ระวังโดนแบนนะจ๊ะx2!", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Jakekill871/public-scripts/master/GrandPieceOnlineGUI'),true))()
 end)
 
 -- BED Wars
@@ -112,5 +130,4 @@ end)
 --
 
 local Tab = Window:NewTab("Credit")
-local Section = Tab:NewSection("Creat by !DAYYY# 2818")
 local Section = Tab:NewSection("สนับสนุนได้ที่ True wallet: 0625238053")
